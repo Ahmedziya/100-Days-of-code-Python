@@ -12,6 +12,7 @@ position = int(input("Where do you want to put the treasure? "))
 c = int((position/10)-1)
 r = int((position%10)-1)
 map[r][c] = "X"
+#i swapped c and r 
 #print (map[r][c])
 
 # 11=0,0
